@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Data Analyst</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nama Kamu</h1>
+            <p class="subtitle">Data Analyst | Business Intelligence | Data Visualization</p>
+            <div class="nav-buttons">
+                <button class="nav-btn active" onclick="showSection('about')">Tentang Saya</button>
+                <button class="nav-btn" onclick="showSection('tableau')">Dashboard Tableau</button>
+                <button class="nav-btn" onclick="showSection('canva')">Desain Canva</button>
+                <button class="nav-btn" onclick="showSection('insights')">Laporan Insight</button>
+                <button class="nav-btn" onclick="showSection('projects')">Project Lainnya</button>
+                <button class="nav-btn" onclick="showSection('contact')">Kontak</button>
+            </div>
+        </header>
+
+        <div id="about" class="section active">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <div>
+                    <img src="https://via.placeholder.com/250" alt="Profile" class="profile-img">
+                </div>
+                <div>
+                    <p style="font-size: 1.1em; margin-bottom: 20px;">
+                        Saya adalah seorang Data Analyst yang berpengalaman dalam mengubah data mentah menjadi insight yang actionable. 
+                        Dengan keahlian dalam visualisasi data dan business intelligence, saya membantu perusahaan membuat keputusan 
+                        berbasis data yang lebih baik.
+                    </p>
+                    <p style="font-size: 1.1em;">
+                        Saya passionate dalam menemukan pola tersembunyi dalam data dan mengkomunikasikannya dengan cara yang mudah 
+                        dipahami melalui dashboard interaktif dan storytelling visual.
+                    </p>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 40px; color: #667eea; font-size: 1.8em;">Keahlian</h3>
+            <div class="skills">
+                <div class="skill-card">
+                    <h4>Data Analysis</h4>
+                    <p>Python, SQL, Excel</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Visualization</h4>
+                    <p>Tableau, Power BI</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Statistics</h4>
+                    <p>Hypothesis Testing, Regression</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Design</h4>
+                    <p>Canva, Data Storytelling</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="tableau" class="section">
+            <h2>Dashboard Tableau</h2>
+            <p style="margin-bottom: 20px; font-size: 1.1em;">
+                Berikut adalah beberapa dashboard interaktif yang saya buat menggunakan Tableau untuk analisis data dan business intelligence.
+            </p>
+            
+            <div class="embed-container">
+                <h3 style="color: #667eea; margin-bottom: 15px;">Dashboard 1: Sales Analysis</h3>
+                <p style="margin-bottom: 15px; color: #666;">Ganti URL di bawah dengan link Tableau Public kamu</p>
+                <iframe 
+                    src="https://public.tableau.com/views/RegionalSampleWorkbook/Storms?:embed=yes&:display_count=yes&:showVizHome=no" 
+                    height="600">
+                </iframe>
+            </div>
+
+            <div class="embed-container" style="margin-top: 40px;">
+                <h3 style="color: #667eea; margin-bottom: 15px;">Dashboard 2: Customer Analytics</h3>
+                <p style="margin-bottom: 15px; color: #666;">Tambahkan dashboard Tableau kedua di sini</p>
+                <iframe 
+                    src="https://public.tableau.com/views/RegionalSampleWorkbook/Obesity?:embed=yes&:display_count=yes&:showVizHome=no" 
+                    height="600">
+                </iframe>
+            </div>
+        </div>
+
+        <div id="canva" class="section">
+            <h2>Desain Canva</h2>
+            <p style="margin-bottom: 20px; font-size: 1.1em;">
+                Koleksi desain infografis dan presentasi data yang saya buat menggunakan Canva untuk storytelling yang lebih menarik.
+            </p>
+            
+            <div class="embed-container">
+                <h3 style="color: #667eea; margin-bottom: 15px;">Infografis 1: Data Insights</h3>
+                <p style="margin-bottom: 15px; color: #666;">Ganti dengan link embed Canva kamu (pilih Share > Embed)</p>
+                <iframe 
+                    src="https://www.canva.com/design/DAFxExample/view?embed" 
+                    height="600"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="embed-container" style="margin-top: 40px;">
+                <h3 style="color: #667eea; margin-bottom: 15px;">Presentasi 2: Project Report</h3>
+                <p style="margin-bottom: 15px; color: #666;">Tambahkan desain Canva kedua di sini</p>
+                <iframe 
+                    src="https://www.canva.com/design/DAFxExample2/view?embed" 
+                    height="600"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <div id="insights" class="section">
+            <h2>Laporan Insight & Analisis</h2>
+            <p style="margin-bottom: 30px; font-size: 1.1em;">
+                Kumpulan laporan analisis data dan business insight yang telah saya kerjakan untuk berbagai project.
+            </p>
+
+            <!-- Insight Card 1 -->
+            <div class="insight-card">
+                <div class="insight-header">
+                    <div>
+                        <h3 class="insight-title">Analisis Penurunan Sales Q3 2024</h3>
+                    </div>
+                    <div class="insight-meta">
+                        <span class="meta-badge">📅 Sept 2024</span>
+                        <span class="meta-badge">🏢 E-Commerce</span>
+                    </div>
+                </div>
+
+                <div class="insight-section">
+                    <h4>📊 Executive Summary</h4>
+                    <p>
+                        Analisis mendalam terhadap penurunan sales sebesar 15% pada Q3 2024. Identifikasi faktor utama 
+                        dan rekomendasi strategi untuk recovery di Q4.
+                    </p>
+                </div>
+
+                <div class="chart-section">
+                    <h4 style="color: #667eea; margin-bottom: 15px;">📈 Data Visualization & Analysis</h4>
+                    <div class="chart-grid">
+                        <div class="chart-card">
+                            <img src="https://via.placeholder.com/400x250/667eea/ffffff?text=Sales+Trend+Chart" alt="Sales Trend" class="chart-image">
+                            <div class="chart-title">Sales Trend Q1-Q3 2024</div>
+                            <div class="chart-description">
+                                Grafik menunjukkan penurunan signifikan dimulai dari minggu ke-2 Juli hingga akhir September. 
+                                Peak penurunan terjadi di minggu ke-3 Agustus (-22%).
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <img src="https://via.placeholder.com/400x250/764ba2/ffffff?text=Category+Performance" alt="Category" class="chart-image">
+                            <div class="chart-title">Performance by Category</div>
+                            <div class="chart-description">
+                                Fashion dan Electronics adalah kategori paling terdampak dengan penurunan masing-masing 20% dan 18%. 
+                                Home & Living relatif stabil dengan penurunan hanya 5%.
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <img src="https://via.placeholder.com/400x250/667eea/ffffff?text=User+Journey+Funnel" alt="Funnel" class="chart-image">
+                            <div class="chart-title">Conversion Funnel Analysis</div>
+                            <div class="chart-description">
+                                Drop-off terbesar terjadi di tahap checkout (23% cart abandonment) dan product page 
+                                (35% bounce rate dari mobile users).
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <img src="https://via.placeholder.com/400x250/764ba2/ffffff?text=Loading+Time+Impact" alt="Performance" class="chart-image">
+                            <div class="chart-title">Page Load Time vs Conversion</div>
+                            <div class="chart-description">
+                                Korelasi negatif kuat antara loading time dan conversion rate. Setiap tambahan 1 detik 
+                                loading time menurunkan conversion sebesar 7%.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-number">-15%</div>
+                        <div class="stat-label">Sales Growth</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">23%</div>
+                        <div class="stat-label">Cart Abandonment</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">1.8x</div>
+                        <div class="stat-label">Customer Churn</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">3.2</div>
+                        <div class="stat-label">Avg Page Load Time</div>
+                    </div>
+                </div>
+
+                <div class="key-findings">
+                    <h4>🔍 Key Findings:</h4>
+                    <ul>
+                        <li>Website loading time meningkat 45% karena update sistem</li>
+                        <li>Kompetitor meluncurkan promo besar-besaran di periode yang sama</li>
+                        <li>Kategori Fashion & Electronics paling terpengaruh (-20% dan -18%)</li>
+                        <li>Mobile user experience menurun drastis (bounce rate +35%)</li>
+                    </ul>
+                </div>
+
+                <div class="insight-section">
+                    <h4>🎯 Root Cause Analysis</h4>
+                    <ul>
+                        <li><strong>Technical Issues (40%):</strong> Performance degradation setelah sistem update</li>
+                        <li><strong>Market Competition (35%):</strong> Aggressive pricing dari kompetitor</li>
+                        <li><strong>User Experience (25%):</strong> Mobile checkout flow yang rumit</li>
+                    </ul>
+                </div>
+
+                <div class="recommendation-box">
+                    <h4>💡 Rekomendasi Aksi</h4>
+                    <ul>
+                        <li>Prioritas optimasi website performance (target: <2s load time)</li>
+                        <li>Launch flash sale campaign untuk win back customers</li>
+                        <li>Simplify mobile checkout process (target: 3-step max)</li>
+                        <li>Competitive pricing analysis untuk kategori high-impact</li>
+                    </ul>
+                </div>
+
+                <div class="insight-section">
+                    <h4>📈 Projected Impact</h4>
+                    <p>
+                        Dengan implementasi rekomendasi di atas, diproyeksikan sales recovery 10-12% di Q4 2024 
+                        dengan ROI campaign sebesar 3.5x.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Insight Card 2 -->
+            <div class="insight-card">
+                <div class="insight-header">
+                    <div>
+                        <h3 class="insight-title">Customer Segmentation & Personalization Strategy</h3>
+                    </div>
+                    <div class="insight-meta">
+                        <span class="meta-badge">📅 Aug 2024</span>
+                        <span class="meta-badge">🎯 Marketing</span>
+                    </div>
+                </div>
+
+                <div class="insight-section">
+                    <h4>📊 Executive Summary</h4>
+                    <p>
+                        Segmentasi pelanggan menggunakan RFM Analysis dan clustering algorithm untuk meningkatkan 
+                        efektivitas marketing campaign dan customer lifetime value.
+                    </p>
+                </div>
+
+                <div class="chart-section">
+                    <h4 style="color: #667eea; margin-bottom: 15px;">📈 Data Visualization & Analysis</h4>
+                    <div class="chart-grid">
+                        <div class="chart-card">
+                            <img src="https://via.placeholder.com/400x250/667eea/ffffff?text=RFM+Segments" alt="RFM" class="chart-image">
+                            <div class="chart-title">RFM Customer Segmentation</div>
+                            <div class="chart-description">
+                                5 segmen customer berdasarkan Recency, Frequency, dan Monetary value. Champions segment 
+                                berkontribusi 45% dari total revenue meski hanya 18% dari customer base.
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <img src="https://via.placeholder.com/400x250/764ba2/ffffff?text=CLV+Distribution" alt="CLV" class="chart-image">
+                            <div class="chart-title">Customer Lifetime Value Distribution</div>
+                            <div class="chart-description">
+                                CLV tertinggi pada segment Champions ($1,250) dan Loyal Customers ($780). 
+                                Opportunity besar untuk nurture Potential Loyalists (current CLV: $320).
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">Customer Segments</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">32%</div>
+                        <div class="stat-label">Campaign ROI Increase</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">12K</div>
+                        <div class="stat-label">Active Customers</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">$450</div>
+                        <div class="stat-label">Avg CLV</div>
+                    </div>
+                </div>
+
+                <div class="key-findings">
+                    <h4>🔍 Customer Segments Identified:</h4>
+                    <ul>
+                        <li><strong>Champions (18%):</strong> High value, frequent buyers - fokus retention</li>
+                        <li><strong>Loyal Customers (25%):</strong> Regular buyers - upsell opportunities</li>
+                        <li><strong>Potential Loyalists (22%):</strong> Recent buyers - nurture campaign</li>
+                        <li><strong>At Risk (20%):</strong> Declining engagement - win-back campaign</li>
+                        <li><strong>Lost Customers (15%):</strong> Inactive >6 months - reactivation</li>
+                    </ul>
+                </div>
+
+                <div class="recommendation-box">
+                    <h4>💡 Personalized Campaign Strategy</h4>
+                    <ul>
+                        <li><strong>Champions:</strong> VIP program, exclusive early access, referral rewards</li>
+                        <li><strong>Loyal:</strong> Cross-sell bundling, loyalty points, birthday offers</li>
+                        <li><strong>Potential:</strong> Onboarding series, product recommendations</li>
+                        <li><strong>At Risk:</strong> Special discount, survey feedback, re-engagement</li>
+                        <li><strong>Lost:</strong> Win-back offers, "we miss you" campaign</li>
+                    </ul>
+                </div>
+
+                <div class="insight-section">
+                    <h4>📈 Expected Outcomes</h4>
+                    <p>
+                        Implementation personalized marketing diperkirakan meningkatkan conversion rate 25%, 
+                        customer retention 15%, dan mengurangi marketing cost per acquisition sebesar 20%.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Insight Card 3 -->
+            <div class="insight-card">
+                <div class="insight-header">
+                    <div>
+                        <h3 class="insight-title">Inventory Optimization & Demand Forecasting</h3>
+                    </div>
+                    <div class="insight-meta">
+                        <span class="meta-badge">📅 Jul 2024</span>
+                        <span class="meta-badge">📦 Operations</span>
+                    </div>
+                </div>
+
+                <div class="insight-section">
+                    <h4>📊 Executive Summary</h4>
+                    <p>
+                        Analisis pola demand dan optimasi inventory level untuk mengurangi stockout dan overstock, 
+                        meningkatkan cash flow dan customer satisfaction.
+                    </p>
+                </div>
+
+                <div class="chart-section">
+                    <h4 style="color: #667eea; margin-bottom: 15px;">📈 Data Visualization & Analysis</h4>
+                    <div class="chart-grid">
+                        <div class="chart-card">
+                            <img src="https://via.placeholder.com/400x250/667eea/ffffff?text=ABC+Analysis" alt="ABC" class="chart-image">
+                            <div class="chart-title">ABC Inventory Classification</div>
+                            <div class="chart-description">
+                                Category A (20% items, 70% revenue) perlu tight control. Category C (50% items, 10% revenue) 
+                                candidates untuk clearance atau discontinuation.
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <img src="https://via.placeholder.com/400x250/764ba2/ffffff?text=Demand+Forecast" alt="Forecast" class="chart-image">
+                            <div class="chart-title">Demand Forecasting Accuracy</div>
+                            <div class="chart-description">
+                                Time series model mencapai 92% accuracy untuk fast-moving items. Seasonal decomposition 
+                                menunjukkan peak demand di Q4 (+35% vs baseline).
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <img src="https://via.placeholder.com/400x250/667eea/ffffff?text=Stockout+Analysis" alt="Stockout" class="chart-image">
+                            <div class="chart-title">Stockout Pattern Analysis</div>
+                            <div class="chart-description">
+                                Weekend stockout rate 3x lebih tinggi dibanding weekday. Top 10 fast-moving items 
+                                menyumbang 65% dari total stockout incidents.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-box">
+                        <div class="stat-number">35%</div>
+                        <div class="stat-label">Stockout Reduction</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">$280K</div>
+                        <div class="stat-label">Capital Released</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">92%</div>
+                        <div class="stat-label">Forecast Accuracy</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">18</div>
+                        <div class="stat-label">Days Inventory</div>
+                    </div>
+                </div>
+
+                <div class="key-findings">
+                    <h4>🔍 Key Insights:</h4>
+                    <ul>
+                        <li>30% produk mengalami overstock dengan slow-moving inventory >90 hari</li>
+                        <li>Fast-moving items sering stockout di weekend (conversion loss ~$45K/month)</li>
+                        <li>Seasonal pattern jelas untuk kategori fashion & home decor</li>
+                        <li>Lead time supplier bervariasi 7-21 hari, perlu buffer stock optimal</li>
+                    </ul>
+                </div>
+
+                <div class="recommendation-box">
+                    <h4>💡 Optimization Actions</h4>
+                    <ul>
+                        <li>Implement ABC analysis untuk prioritas inventory management</li>
+                        <li>Dynamic reorder point berdasarkan demand forecasting model</li>
+                        <li>Clearance campaign untuk slow-moving items (target: 60% reduction)</li>
+                        <li>Supplier negotiation untuk reduce lead time & improve reliability</li>
+                    </ul>
+                </div>
+            </div>
+
+            <button class="add-insight-btn" onclick="openInsightModal()">+ Tambah Laporan Insight Baru</button>
+        </div>
+
+        <div id="projects" class="section">
+            <h2>Project Lainnya</h2>
+            <p style="margin-bottom: 20px; font-size: 1.1em;">
+                Kumpulan project data analysis dan visualisasi lainnya yang pernah saya kerjakan.
+            </p>
+            
+            <div class="project-grid" id="projectGrid">
+                <div class="project-card">
+                    <h3>Customer Segmentation</h3>
+                    <p>Analisis segmentasi pelanggan menggunakan K-Means clustering untuk meningkatkan strategi marketing.</p>
+                    <p style="margin-top: 10px; color: #667eea; font-weight: bold;">Tools: Python, Scikit-learn, Tableau</p>
+                </div>
+                <div class="project-card">
+                    <h3>Sales Forecasting</h3>
+                    <p>Prediksi penjualan menggunakan time series analysis untuk planning inventory yang lebih baik.</p>
+                    <p style="margin-top: 10px; color: #667eea; font-weight: bold;">Tools: Python, ARIMA, Power BI</p>
+                </div>
+                <div class="project-card">
+                    <h3>Web Analytics Dashboard</h3>
+                    <p>Dashboard real-time untuk monitoring website traffic dan user behavior analysis.</p>
+                    <p style="margin-top: 10px; color: #667eea; font-weight: bold;">Tools: Google Analytics, Tableau</p>
+                </div>
+            </div>
+
+            <button class="add-project-btn" onclick="openModal()">+ Tambah Project Baru</button>
+        </div>
+
+        <div id="contact" class="section">
+            <h2>Kontak</h2>
+            <p style="margin-bottom: 30px; font-size: 1.1em;">
+                Mari berdiskusi tentang data! Hubungi saya melalui channel berikut:
+            </p>
+            
+            <div class="contact-info">
+                <div class="contact-card">
+                    <h3>📧 Email</h3>
+                    <p>email@example.com</p>
+                </div>
+                <div class="contact-card">
+                    <h3>💼 LinkedIn</h3>
+                    <p>linkedin.com/in/yourprofile</p>
+                </div>
+                <div class="contact-card">
+                    <h3>🐙 GitHub</h3>
+                    <p>github.com/yourusername</p>
+                </div>
+                <div class="contact-card">
+                    <h3>📊 Tableau Public</h3>
+                    <p>public.tableau.com/profile/yourname</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Project -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <h2 style="color: #667eea; margin-bottom: 25px;">Tambah Project Baru</h2>
+            <form id="projectForm">
+                <div class="form-group">
+                    <label for="projectTitle">Judul Project:</label>
+                    <input type="text" id="projectTitle" required>
+                </div>
+                <div class="form-group">
+                    <label for="projectDesc">Deskripsi:</label>
+                    <textarea id="projectDesc" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="projectTools">Tools yang Digunakan:</label>
+                    <input type="text" id="projectTools" placeholder="e.g., Python, Tableau, SQL" required>
+                </div>
+                <div class="modal-buttons">
+                    <button type="button" class="btn-cancel" onclick="closeModal()">Batal</button>
+                    <button type="submit" class="btn-submit">Tambah Project</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Insight -->
+    <div id="insightModal" class="modal">
+        <div class="modal-content">
+            <h2 style="color: #667eea; margin-bottom: 25px;">Tambah Laporan Insight Baru</h2>
+            <form id="insightForm">
+                <div class="form-group">
+                    <label for="insightTitle">Judul Laporan:</label>
+                    <input type="text" id="insightTitle" placeholder="e.g., Analisis Churn Rate Pelanggan" required>
+                </div>
+                <div class="form-group">
+                    <label for="insightDate">Tanggal:</label>
+                    <input type="text" id="insightDate" placeholder="e.g., Okt 2024" required>
+                </div>
+                <div class="form-group">
+                    <label for="insightCategory">Kategori:</label>
+                    <input type="text" id="insightCategory" placeholder="e.g., Marketing, Sales, Operations" required>
+                </div>
+                <div class="form-group">
+                    <label for="insightSummary">Executive Summary:</label>
+                    <textarea id="insightSummary" placeholder="Ringkasan singkat insight utama..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="insightFindings">Key Findings (pisahkan dengan enter):</label>
+                    <textarea id="insightFindings" placeholder="Finding 1&#10;Finding 2&#10;Finding 3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="insightRecommendations">Rekomendasi (pisahkan dengan enter):</label>
+                    <textarea id="insightRecommendations" placeholder="Rekomendasi 1&#10;Rekomendasi 2&#10;Rekomendasi 3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="insightCharts">Upload Grafik/Chart (bisa multiple):</label>
+                    <div class="upload-area" id="uploadArea">
+                        <div class="upload-icon">📊</div>
+                        <p style="margin: 10px 0; color: #667eea; font-weight: bold;">Click atau Drag & Drop gambar di sini</p>
+                        <p style="color: #666; font-size: 0.9em;">Support: JPG, PNG, GIF (Max 5MB per file)</p>
+                        <input type="file" id="insightCharts" accept="image/*" multiple style="display: none;">
+                    </div>
+                    <div id="chartPreviewContainer" class="chart-preview-container"></div>
+                </div>
+                <div class="modal-buttons">
+                    <button type="button" class="btn-cancel" onclick="closeInsightModal()">Batal</button>
+                    <button type="submit" class="btn-submit">Tambah Laporan</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
